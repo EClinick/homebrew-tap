@@ -1,6 +1,6 @@
 cask "juice" do
-  version "0.1.0"
-  sha256 "88f0f06d07a53e67e87ddac605b235b915c21212fe66a28ca14daf5453058aad"
+  version "0.1.1"
+  sha256 "5aedc18c423e57990be5511cbf2ac6b841c0e52488de1fe82533b23c5ca2e716"
 
   url "https://github.com/EClinick/juice/releases/download/v#{version}/Juice.dmg"
   name "Juice"
@@ -17,6 +17,7 @@ cask "juice" do
   ]
 
   caveats <<~EOS
-    Per-app energy history also requires Juice's separately installed privileged helper.
+    Approve Juice under System Settings → General → Login Items to enable
+    per-app energy history.
   EOS
 end
