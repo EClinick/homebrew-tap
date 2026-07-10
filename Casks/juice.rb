@@ -1,6 +1,6 @@
 cask "juice" do
-  version "0.1.5"
-  sha256 "c4aac1c6a268d5c528b11dcc11bf0b53048b056eb6334dbdb1153d0487301c1a"
+  version "0.1.6"
+  sha256 "d4fdd8d9fad13054a62afe6bc2151a75cbd4fe295abc61e8cbe3813a7244711c"
 
   url "https://github.com/EClinick/juice/releases/download/v#{version}/Juice.dmg"
   name "Juice"
